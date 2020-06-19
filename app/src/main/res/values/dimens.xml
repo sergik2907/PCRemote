@@ -1,0 +1,91 @@
+<resources>
+    <dimen name="TEXT_SIZE_XSmall">17sp</dimen>
+    <dimen name="TEXT_SIZE_Small">19sp</dimen>
+    <dimen name="TEXT_SIZE_Medium">22sp</dimen>
+    <dimen name="TEXT_SIZE_Large">29sp</dimen>
+    <dimen name="TEXT_SIZE_XLarge">36sp</dimen>
+
+    <dimen name="DISTANCE_BETWEEN_EditText">25dp</dimen>
+
+    <dimen name="WIDTH_Message">330dp</dimen>
+    <dimen name="WIDTH_DefaultActionButton">160dp</dimen>
+    <dimen name="WIDTH_KeyboardButton">50dp</dimen>
+    <dimen name="WIDTH_CSCEditText">80dp</dimen>
+    <dimen name="WIDTH_ListItemImage">20dp</dimen>
+    <dimen name="WIDTH_ParameterListKey">220dp</dimen>
+    <dimen name="WIDTH_ParameterListValue">130dp</dimen>
+    <dimen name="WIDTH_SignatureDrawer">300dp</dimen>
+    <dimen name="WIDTH_Gif">230dp</dimen>
+    <dimen name="WIDTH_SignatureDrawerTip">300dp</dimen>
+
+    <dimen name="HEIGHT_DefaultActionButton">70dp</dimen>
+    <dimen name="HEIGHT_KeyboardGradient">100dp</dimen>
+    <dimen name="HEIGHT_KeyboardButton">60dp</dimen>
+    <dimen name="HEIGHT_ListItem">60dp</dimen>
+    <dimen name="HEIGHT_ListItemImage">24dp</dimen>
+    <dimen name="HEIGHT_ParameterList">450dp</dimen>
+    <dimen name="HEIGHT_ParameterListGroupHeight">70dp</dimen>
+    <dimen name="HEIGHT_SignatureDrawer">200dp</dimen>
+    <dimen name="HEIGHT_Gif">230dp</dimen>
+
+    <dimen name="SIZE_MessageImages">180sp</dimen>
+
+
+    <dimen name="MIN_HEIGHT_ListItem">65dp</dimen>
+
+    <dimen name="MARGIN_TOP_Title">50dp</dimen>
+    <dimen name="MARGIN_TOP_TitleEnterCardInfo">40dp</dimen>
+    <dimen name="MARGIN_TOP_EditText">50dp</dimen>
+    <dimen name="MARGIN_TOP_EditTextEnterCardInfo">25dp</dimen>
+    <dimen name="MARGIN_TOP_Amount">30dp</dimen>
+    <dimen name="MARGIN_TOP_AmountEnterCardInfo">15dp</dimen>
+    <dimen name="MARGIN_TOP_MessageText">100dp</dimen>
+    <dimen name="MARGIN_TOP_ParameterList">30dp</dimen>
+    <dimen name="MARGIN_TOP_List">150dp</dimen>
+    <dimen name="MARGIN_TOP_Contactless">60dp</dimen>
+    <dimen name="MARGIN_TOP_Gif">80dp</dimen>
+    <dimen name="MARGIN_TOP_MessageInfo">20dp</dimen>
+    <dimen name="MARGIN_TOP_Operation">10dp</dimen>
+    <dimen name="MARGIN_TOP_MessageWithoutAmount">166dp</dimen>
+
+    <dimen name="MARGIN_BOTTOM_ImagesLongScreen">180dp</dimen>
+    <dimen name="MARGIN_BOTTOM_ImagesShortScreen">150dp</dimen>
+    <dimen name="MARGIN_BOTTOM_RemoveCardLongScreen">110dp</dimen>
+    <dimen name="MARGIN_BOTTOM_RemoveCardShortScreen">80dp</dimen>
+    <dimen name="MARGIN_BOTTOM_MessageImagesLongScreen">80dp</dimen>
+    <dimen name="MARGIN_BOTTOM_MessageImagesShortScreen">50dp</dimen>
+    <dimen name="MARGIN_BOTTOM_DefaultActionButton">30dp</dimen>
+    <dimen name="MARGIN_BOTTOM_KeyboardGradient">15dp</dimen>
+    <dimen name="MARGIN_BOTTOM_Keyboard">25dp</dimen>
+    <dimen name="MARGIN_BOTTOM_MessageInfo">30dp</dimen>
+    <dimen name="MARGIN_BOTTOM_ParameterList">100dp</dimen>
+    <dimen name="MARGIN_BOTTOM_ClearButton">20dp</dimen>
+    <dimen name="MARGIN_BOTTOM_SignatureDrawerTip">60dp</dimen>
+    <dimen name="MARGIN_BOTTOM_IdleLogo">20dp</dimen>
+
+    <dimen name="MARGIN_START_DefaultActionButton">10dp</dimen>
+    <dimen name="MARGIN_START_KeyboardButton">10dp</dimen>
+    <dimen name="MARGIN_START_EditText">20dp</dimen>
+    <dimen name="MARGIN_START_ListItemText">5dp</dimen>
+    <dimen name="MARGIN_START_ParameterListKey">5dp</dimen>
+
+    <dimen name="MARGIN_END_DefaultActionButton">10dp</dimen>
+    <dimen name="MARGIN_END_KeyboardButton">10dp</dimen>
+    <dimen name="MARGIN_END_EditText">20dp</dimen>
+    <dimen name="MARGIN_END_AccountNumber">40dp</dimen>
+    <dimen name="MARGIN_END_ListItemImage">15dp</dimen>
+    <dimen name="MARGIN_END_MessageInfo">10dp</dimen>
+    <dimen name="MARGIN_END_ClearButton">20dp</dimen>
+
+    <dimen name="ELEVATION_ClearButton">5dp</dimen>
+
+    <dimen name="CORNER_RADIUS_KeyboardButton">10dp</dimen>
+
+    <dimen name="MIN_HEIGHT_ParameterListItem">50dp</dimen>
+
+    <dimen name="ALPHA_Logo">0.3</dimen>
+
+    <dimen name="default_action_button_width">150dp</dimen>
+    <dimen name="expiration_date_width">200dp</dimen>
+    <dimen name="expiration_date_end_margin">20dp</dimen>
+</resources>

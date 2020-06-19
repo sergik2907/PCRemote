@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="Base.Widget.MaterialComponents.TextInputLayout.WithoutChangingFocusedColor" parent="Widget.Design.TextInputLayout">
+        <item name="colorControlNormal">@color/blue</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="colorControlHighlight">@color/blue</item>
+    </style>
+
+    <style name="DefaultActionButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/TEXT_SIZE_Small</item>
+        <item name="android:layout_width">@dimen/WIDTH_DefaultActionButton</item>
+        <item name="android:layout_height">@dimen/HEIGHT_DefaultActionButton</item>
+        <item name="android:layout_marginBottom">@dimen/MARGIN_BOTTOM_DefaultActionButton</item>
+        <item name="android:layout_marginStart">@dimen/MARGIN_START_DefaultActionButton</item>
+        <item name="android:layout_marginEnd">@dimen/MARGIN_END_DefaultActionButton</item>
+    </style>
+
+</resources>

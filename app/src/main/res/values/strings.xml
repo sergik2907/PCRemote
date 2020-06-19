@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PCControll</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi">WiFI</string>
+    <string name="select_connection_type">Select connection type</string>
+    <string name="select_action">Select action</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="keyboard_and_mouse">Keyboard and\nmouse</string>
+    <string name="gamepad">Gamepad</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="color">Color</string>
+    <string name="bind">Bind</string>
+    <string name="close">Close</string>
+    <string name="name">Name</string>
+    <string name="remove">Remove</string>
+    <string name="enter_ip">Enter Ip</string>
+    <string name="enter_uuid">Enter UUID</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="mouse">Mouse</string>
+</resources>

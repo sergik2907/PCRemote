@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/gamePadForm">
+
+    <fragment
+        android:id="@+id/keyboardForm"
+        android:name="com.pccontroll.ui.form.KeyboardForm"
+        android:label="KeyboardForm" />
+
+    <fragment
+        android:id="@+id/selectConnectionForm"
+        android:name="com.pccontroll.ui.form.SelectConnectionForm"
+        android:label="SelectConnectionForm" />
+
+    <fragment
+        android:id="@+id/enterPcIpForm"
+        android:name="com.pccontroll.ui.form.EnterPCIpForm"
+        android:label="EnterPCIpForm" />
+
+    <fragment
+        android:id="@+id/selectActionForm"
+        android:name="com.pccontroll.ui.form.SelectActionForm"
+        android:label="SelectActionForm" />
+
+    <fragment
+        android:id="@+id/mouseForm"
+        android:name="com.pccontroll.ui.form.MouseForm"
+        android:label="MouseForm" />
+
+    <fragment
+        android:id="@+id/gamePadForm"
+        android:name="com.pccontroll.ui.form.GamePadForm"
+        android:label="GamePadForm" />
+</navigation>
