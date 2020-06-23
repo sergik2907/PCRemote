@@ -24,4 +24,5 @@
     <string name="enter_uuid">Enter UUID</string>
     <string name="keyboard">Keyboard</string>
     <string name="mouse">Mouse</string>
+    <string name="enter_address">Enter address</string>
 </resources>

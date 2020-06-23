@@ -8,8 +8,8 @@ import android.view.KeyEvent;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
 import com.google.android.material.textfield.TextInputEditText;
+import com.pccontroll.integration.ConnectionManager;
 import com.pccontroll.integration.KeyCodeMapper;
-import com.pccontroll.integration.WebSocketConnector;
 import com.pccontroll.model.Field;
 import java.util.Locale;
 
@@ -60,7 +60,9 @@ public class KeyboardInputEditText extends TextInputEditText {
 		public void afterTextChanged(Editable s) {
 			String value = String.valueOf(s);
 			String shift = value.matches("[A-Z]") ? SHIFT : "";
-			send(shift + (int) value.charAt(0));
+			if (!value.isEmpty()) {
+				send(shift + (int) value.charAt(0));
+			}
 			removeTextChangedListener(this);
 			getText().clear();
 			addTextChangedListener(this);
@@ -74,7 +76,7 @@ public class KeyboardInputEditText extends TextInputEditText {
 		InputMethodSubtype ims = imm.getCurrentInputMethodSubtype();
 		final String locale = ims.getLanguageTag();
 		if (locale.contains(Locale.ENGLISH.getLanguage())) {
-			new WebSocketConnector(getContext()).send(valueToSend);
+			ConnectionManager.send(getContext(), valueToSend);
 		}
 	}
 }

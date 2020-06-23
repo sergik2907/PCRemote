@@ -8,7 +8,7 @@ package com.pccontroll.model;
 public enum Field {
 
 	Ip("ip"),
-	UUID("UUID"),
+	Address("address"),
 	Keyboard("keyboard"),
 	Mouse("mouse"),
 	Button("button");

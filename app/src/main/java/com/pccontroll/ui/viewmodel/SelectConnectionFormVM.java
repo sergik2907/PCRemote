@@ -1,6 +1,7 @@
 package com.pccontroll.ui.viewmodel;
 
 import com.pccontroll.R;
+import com.pccontroll.integration.ConnectionManager;
 import com.pccontroll.ui.AbstractForm;
 import com.pccontroll.ui.AbstractViewModel;
 
@@ -16,10 +17,12 @@ public class SelectConnectionFormVM extends AbstractViewModel {
 	}
 
 	public void onWiFiClick() {
+		ConnectionManager.setIsWiFi(true);
 		navigate(R.id.enterPcIpForm);
 	}
 
 	public void onBluetoothClick() {
-		//TODO add bluetooth impl
+		ConnectionManager.setIsWiFi(false);
+		navigate(R.id.enterAddress);
 	}
 }

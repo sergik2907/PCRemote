@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/gamePadForm">
+    app:startDestination="@id/selectConnectionForm">
 
     <fragment
         android:id="@+id/keyboardForm"
@@ -33,4 +33,9 @@
         android:id="@+id/gamePadForm"
         android:name="com.pccontroll.ui.form.GamePadForm"
         android:label="GamePadForm" />
+
+    <fragment
+        android:id="@+id/enterAddress"
+        android:name="com.pccontroll.ui.form.EnterPCAddressForm"
+        android:label="EnterAddress" />
 </navigation>

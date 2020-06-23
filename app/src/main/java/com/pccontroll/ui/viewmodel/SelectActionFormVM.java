@@ -20,5 +20,6 @@ public class SelectActionFormVM extends AbstractViewModel {
 	}
 
 	public void onGamepadClick() {
+		navigate(R.id.gamePadForm);
 	}
 }

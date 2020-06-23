@@ -40,7 +40,6 @@ public class GamePadFormVM extends AbstractViewModel {
 				}
 				return false;
 			}
-		}
-				;
+		};
 	}
 }

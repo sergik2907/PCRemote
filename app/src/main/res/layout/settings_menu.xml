@@ -89,37 +89,13 @@
         app:layout_constraintStart_toEndOf="@id/x"
         app:layout_constraintTop_toTopOf="@id/width" />
 
-    <com.pccontroll.ui.components.AwesomeImageDefault
-        android:id="@+id/color_display"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textColor="@color/colorPrimary"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@id/color_edit_text"
-        app:layout_constraintEnd_toStartOf="@id/color_edit_text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/color_edit_text" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/color_edit_text"
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:hint="@string/color"
-        android:imeOptions="flagNoExtractUi"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="@id/y"
-        app:layout_constraintStart_toStartOf="@id/y"
-        app:layout_constraintTop_toTopOf="@id/y" />
-
     <TextView
         android:id="@+id/bind_char"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="@id/x"
-        app:layout_constraintTop_toTopOf="@id/color_edit_text" />
+        app:layout_constraintTop_toTopOf="@id/x" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bind"
@@ -129,9 +105,9 @@
         android:backgroundTint="@color/blue"
         android:text="@string/bind"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="@id/color_edit_text"
-        app:layout_constraintStart_toStartOf="@id/color_edit_text"
-        app:layout_constraintTop_toTopOf="@id/color_edit_text" />
+        app:layout_constraintEnd_toEndOf="@id/y"
+        app:layout_constraintStart_toStartOf="@id/y"
+        app:layout_constraintTop_toTopOf="@id/y" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/close"

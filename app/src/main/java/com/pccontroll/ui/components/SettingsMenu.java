@@ -23,15 +23,12 @@ public class SettingsMenu extends ViewGroup {
 	private EditText heightEditText;
 	private EditText xEditText;
 	private EditText yEditText;
-	private EditText colorEditText;
-	private AwesomeImageDefault colorAwesome;
 	private TextView bindCharTextView;
 	private String name;
 	private String width;
 	private String height;
 	private String x;
 	private String y;
-	private Integer color;
 	private String bindChar;
 	private GamePadButton.OnButtonAttributeChangeCallback callback;
 
@@ -42,7 +39,6 @@ public class SettingsMenu extends ViewGroup {
 		this.height = String.valueOf(height);
 		this.x = String.valueOf(x);
 		this.y = String.valueOf(y);
-		this.color = color;
 		if (bindChar != null) {
 			this.bindChar = String.valueOf((char) (int) bindChar);
 		}
@@ -65,10 +61,6 @@ public class SettingsMenu extends ViewGroup {
 		xEditText.setText(x);
 		yEditText = view.findViewById(R.id.y);
 		yEditText.setText(y);
-		colorEditText = view.findViewById(R.id.color_edit_text);
-		colorEditText.setText("#" + color);
-		colorAwesome = view.findViewById(R.id.color_display);
-		colorAwesome.setTextColor(color);
 		bindCharTextView = view.findViewById(R.id.bind_char);
 		bindCharTextView.setText(bindChar);
 		nameEditText.addTextChangedListener(new TextNotifier(ButtonAttribute.Name));
@@ -76,7 +68,6 @@ public class SettingsMenu extends ViewGroup {
 		heightEditText.addTextChangedListener(new TextNotifier(ButtonAttribute.Height));
 		xEditText.addTextChangedListener(new TextNotifier(ButtonAttribute.X));
 		yEditText.addTextChangedListener(new TextNotifier(ButtonAttribute.Y));
-		colorEditText.addTextChangedListener(new TextNotifier(ButtonAttribute.Color));
 		view.findViewById(R.id.bind).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
